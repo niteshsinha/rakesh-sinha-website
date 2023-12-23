@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Photo Exhibition on occasion of world music day \"Swar Virasat\"  by SonChiraiya & Regional Lalit Kala Academy",
+    "date": "21/06/23 - 26/06/23",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "7.jpg"
+      },
+      {
+        "path": "8.jpg"
+      },
+      {
+        "path": "9.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Photo Exhibition on occasion of Darpan's Diamond Jubilee Theatre Festival",
+    "date": "18/05/23 - 27/05/23",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "4.jpg"
+      },
+      {
+        "path": "5.jpg"
+      },
+      {
+        "path": "6.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Aks-e-mausiqui , an exhibition of Indian classical musicians at IIC New Delhi",
+    "date": " 07/12/21 - 14/12/21",
+    "location": "New Delhi",
+    "images": [
+      {
+        "path": "1.jpg"
+      },
+      {
+        "path": "2.jpg"
+      },
+      {
+        "path": "3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Virasat Exhibition in Tansen Samaroh Gwalior (2003) by Govt. of Madhya Pradesh",
+    "date": "2003",
+    "location": "Gwalior, M.P.",
+    "images": [
+      {
+        "path": "11.jpg"
+      },
+      {
+        "path": "12.jpg"
+      },
+      {
+        "path": "13.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Kathak Dance Photo Exhibition on Occasion of Legendary Lachchu Maharaj's Birthday",
+    "date": " 01.09.1996",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "21.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Exhibition on Occasion of \"Cultural Journalism Workshop\" organised by \"Sanskar Bharti\" U.P.",
+    "date": "1997",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "31.jpg"
+      },
+      {
+        "path": "32.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Exhibition of B/W Enlargements of Great Indian Classical Musicians, Dancers , on occasion of 20th \"Tansen Tyagraja Sanjeet Samaroh\" by Uttar Dakshin Cultural Organisation(UDCO).",
+    "date": "1994",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "41.jpg"
+      },
+      {
+        "path": "42.jpg"
+      },
+      {
+        "path": "43.jpg"
+      },
+      {
+        "path": "44.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Exhibition on Kathak Dance Festival by State Sangeet Natak Academy.",
+    "date": "1998",
+    "location": "Lucknow",
+    "images": [
+      {
+        "path": "51.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Photo exhibition \"VIRASAT\" on occasion of 50th Independence Day of India North Culture Zone Culture Centre(NCZCC) of India.",
+    "date": "1997",
+    "location": "Allahabad",
+    "images": [
+      {
+        "path": "61.jpg"
+      },
+      {
+        "path": "62.jpg"
+      }
+    ]
+  }
+]

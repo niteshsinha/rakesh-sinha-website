@@ -1,0 +1,134 @@
+[
+    {   
+        "data": "Dance",
+        "title": "Different dances",
+        "images": [
+            {
+                "path": "/home/d/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/d/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/d/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/d/4.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {   
+        "data": "Folk",
+        "title": "Folk dances and Folk theatre (MISC)",
+        "images": [
+            {
+                "path": "/home/f/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/f/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/f/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/f/4.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {
+        "data": "Music",
+        "title": "Music",
+        "images": [
+            {
+                "path": "/home/m/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/m/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/m/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/m/4.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {   
+        "data": "Instrumental",
+        "title": "Instrumental",
+        "images": [
+            {
+                "path": "/home/i/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/i/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/i/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/i/4.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {   
+        "data": "Theatre",
+        "title": "Theatre",
+        "images": [
+            {
+                "path": "/home/t/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/t/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/t/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/t/4.jpg",
+                "caption": ""
+            }
+        ]
+    },
+    {   
+        "data": "Vocals",
+        "title": "Vocals",
+        "images": [
+            {
+                "path": "/home/v/1.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/v/2.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/v/3.jpg",
+                "caption": ""
+            },
+            {
+                "path": "/home/v/4.jpg",
+                "caption": ""
+            }
+        ]
+    }
+]

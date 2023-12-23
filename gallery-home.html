@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Rakesh Sinha - Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="src/css/lightbox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!---- Dynamic Header coming from js ---->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+
+    </header>
+    <!-- End Header -->
+
+    <main id="main" data-aos="fade" data-aos-delay="1500">
+
+        <div class="page-header container">
+            <div class="d-flex align-items-center justify-content-center">
+                <h2>Gallery</h2>
+            </div>
+        </div>
+
+        <!---Gallery Section-->
+        <section class="append_gallery">
+            <!-- <div id="gallery" class="gallery">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">Dances</h4>
+                        <a href="#">View all</a>
+                    </div>
+                    <div class="row gy-4" id="galleryWrap">
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <!-- End Gallery Section -->
+    </main>
+    <!-- End #main -->
+
+    <!--Footer-->
+    <footer id="footer" class="footer">
+
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <div id="preloader">
+        <div class="line"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="src/js/lightbox.js"></script>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="Scripts/galleryHome.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            getDynamicHeader("gallery");
+
+            const glightbox = GLightbox({
+                selector: '.glightbox'
+            });
+
+            lightbox.option({ disableScrolling: true });
+        });
+    </script>
+</body>
+
+</html>

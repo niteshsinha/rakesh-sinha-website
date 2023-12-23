@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Rakesh Sinha - Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="src/css/lightbox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/orgchart.css">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!---- Dynamic Header coming from js ---->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+
+    </header>
+    <!-- End Header -->
+
+    <main id="main" data-aos="fade" data-aos-delay="1500" class="pb-0">
+        <div class="d-flex flex-column justify-content-between full_inside_main">
+            <div class="">
+                <!-- ======= End Page Header ======= -->
+                <div class="page-header container">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <h2>Exhibitions</h2>
+                    </div>
+                </div>
+                <!-- End Page Header -->
+
+                <!-- ======= News Section ======= -->
+                <section>
+                    <div class="p-3">
+                        <div class="form-group">
+                            <input type="checkbox" name="treeView" id="showEntireTree">
+                            <label for="showEntireTree">Show entire tree</label>
+                        </div>
+                        <div class="org_chart_wrap">
+                            <div id="chart-container"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End News Section -->
+            </div>
+        </div>
+    </main>
+    <!-- End #main -->
+
+    <!--Footer-->
+    <footer id="footer" class="footer">
+
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <div id="preloader">
+        <div class="line"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="src/js/lightbox.js"></script>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/js/orgchart.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            getDynamicHeader("exhibitions");
+
+            lightbox.option({ disableScrolling: true });
+        });
+    </script>
+
+    <script type="text/javascript">
+        var oc;
+
+        $(function () {
+
+            var dynamicData = {
+                'name': 'Lao Lao',
+                'title': 'general X57YHT78',
+                "image": "/assets/img/dummy_user.png",
+                'children': [
+                    { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                    {
+                        'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                        'children': [
+                            { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png", },
+                            {
+                                'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                                'children': [
+                                    { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png", },
+                                    {
+                                        'name': 'Dan Dan', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                                        'children': [
+                                            { 'name': 'Er Dan', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                                            {
+                                                'name': 'San Dan', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                                                'children': [
+                                                    { 'name': 'Si Dan', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                                                    { 'name': 'Wu Dan', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    { 'name': 'Hong Miao', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                    {
+                        'name': 'Chun Miao', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                        'children': [
+                            { 'name': 'Bing Qin', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                            {
+                                'name': 'Yue Yue', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png",
+                                'children': [
+                                    { 'name': 'San Yue', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                                    { 'name': 'Si Yue', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                                    { 'name': 'Er Yue', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" }
+                                ]
+                            }
+                        ]
+                    },
+                    { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                    { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                    { 'name': 'Aadi Kumar', 'title': 'X57YHT78', 'image': "/assets/img/dummy_user.png" },
+                ]
+            };
+
+            var nodeTemplate = function (data) {
+                return `<div class="org_card_wrap">
+            <a href="#" class="image">
+                <img src=${data.image} alt="photo" />  
+                </a>
+                <div class="title">${data.name}</div>
+                <div class="content d-flex flex-column">
+                <span>level 1</span>
+                <span><strong>Business:</strong> 10 Lakh</span>
+                <span class="text-uppercase">${data.title}</span>
+                </div>
+            </div>`;
+            };
+
+            oc = $('#chart-container').orgchart({
+                'data': dynamicData,
+                'nodeTemplate': nodeTemplate,
+                'verticalLevel': 3,
+                'visibleLevel': 3
+            });
+
+            $('#showEntireTree').click(function () {
+                if ($("#showEntireTree").is(":checked")) {
+                    oc.init({
+                        'visibleLevel': 999
+                    });
+                } else {
+                    oc.init({
+                        'visibleLevel': 3
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
